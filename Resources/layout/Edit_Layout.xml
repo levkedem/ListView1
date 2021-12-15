@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#aa4">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView1"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:background="#3cc"
+        android:textSize="25sp"
+        android:layout_margin="50dp"
+        android:id="@+id/etname"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:background="#3cc"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:id="@+id/etage"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="grade 1"
+        android:background="#3cc"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:id="@+id/etg1"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="grade 2"
+        android:background="#3cc"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:id="@+id/etg2"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"
+            android:id="@+id/radioButtonM"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="f"
+            android:id="@+id/radioButtonF"/>
+        </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#77cc"
+        android:text="save"
+        android:id="@+id/btSave1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#77cc"
+        android:text="new image"
+        android:id="@+id/btImg1"
+        />
+
+</LinearLayout>
